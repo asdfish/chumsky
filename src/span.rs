@@ -249,6 +249,7 @@ impl<T, S: WrappingSpan> SpanWrap<S> for T {}
 /// # Example
 ///
 /// ```
+/// # use chumsky::prelude::*;
 /// enum Expr {
 ///     // Integer literal
 ///     Int(u64),
